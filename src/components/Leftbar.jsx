@@ -1,4 +1,4 @@
-import { Box, Button, Container, Divider, List, ListItem, ListItemText, makeStyles, Typography } from '@material-ui/core'
+import { Box, Button, Container, Divider, Link, List, ListItem, ListItemText, makeStyles, Typography } from '@material-ui/core'
 import React from 'react'
 import { useDispatch } from 'react-redux'
 
@@ -56,7 +56,9 @@ function Leftbar() {
                 I'm still doing more features for this small project. Some responsive bugs will be fixed soon
             </Typography>
             <Typography variant='overline' gutterBottom>
-                Git:
+                <Link href="https://github.com/lethienngan/DiceRoller">
+                    Github link
+                </Link>
             </Typography>
         </Container>
     )
